@@ -1,0 +1,30 @@
+Do below in vs terminal
+
+1. Create a virtual environment in
+Navigate to your project folder and run:
+python -m venv myenv
+
+2. Activate the virtual environment in
+myenv\Scripts\activate
+
+To choose the specific Python version for your virtual environment in VS Code (e.g., 3.13, 3.12, or 3.10):
+
+For Python 3.13:
+python3.13 -m venv myenv
+
+For Python 3.12:
+python3.12 -m venv myenv
+
+For Python 3.10:
+python3.10 -m venv myenv
+
+3. Install necessary packages
+You can now install Python packages (e.g., nltk) within this environment
+pip install _____
+
+4. Deactivate the virtual environment
+When you're done, you can deactivate the virtual environment by running:
+deactivate
+
+
+
