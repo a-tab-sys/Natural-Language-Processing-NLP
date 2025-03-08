@@ -101,6 +101,7 @@ score=accuracy_score(y_test,y_pred)
 print(score)
 
 from sklearn.metrics import classification_report
+
 print(classification_report(y_pred,y_test))
 
 
