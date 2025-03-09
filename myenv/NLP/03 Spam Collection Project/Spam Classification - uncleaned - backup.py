@@ -130,14 +130,14 @@ print(classification_report(y_pred, y_test))
 # generally if the pretrained model captures >= 75% of the vocablary, then go ahead with pretrained
 # but if you see that your dataset has text that is not present in the pretrained model - you can just train it from scratch
 
-#word2vec basicallyconverts words to a vector of a FIXED size
+#word2vec basically converts words to a vector of a FIXED size
 #ex the google news model converted words to a vector of 300 dimensions
 # suppose i had a word: king -> [....300 dimensions]
 # our input here is some message, and our output spam or ham
 # I/P                         O/P
 # I want to eat pizza         Spam/ham
 
-#word to vec will for each word in the message, convert it to 300 dimensions but we need out whold input (the 5 words) to be 300 dimensions.
+#word to vec will for each word in the message, convert it to 300 dimensions but we need our whole input (the 5 words) to be 300 dimensions.
 #to fix this problem: we can use avg word 2 vec
 
 
